@@ -1,0 +1,71 @@
+.lang-ar {
+  direction: rtl;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+.main-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px 20px;
+  border: 1px solid rgb(51 51 51 / 30%);
+  box-shadow: 0px 0px 8px 5px rgb(128 128 128 / 28%);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.main-form .MuiFormControl-root {
+  width: 100%;
+}
+
+.form-lay {
+  padding: 20px 0px;
+}
+
+.lang-drop {
+  position: absolute;
+  width: 200px;
+  right: 0;
+  top: 0;
+}
+
+.MuiMenuItem-root {
+  padding: 0px !important;
+}
+
+.MuiMenuItem-root a {
+  width: 100%;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  padding: 8px !important;
+}
+
+.MuiSelect-select.MuiSelect-select a {
+  color: #333;
+  text-decoration: none;
+}
+
+.lang-ar .MuiInputLabel-formControl {
+  left: auto;
+  right: 0;
+}
+@media only screen and (max-width: 600px) {
+  .main-form {
+    position: relative;
+    left: auto;
+    top: 50px;
+    transform: inherit;
+    width: 90%;
+    padding: 20px 20px;
+    border: 1px solid rgb(51 51 51 / 30%);
+    box-shadow: 0px 0px 8px 5px rgb(128 128 128 / 28%);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: auto;
+  }
+}

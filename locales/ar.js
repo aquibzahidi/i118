@@ -1,4 +1,6 @@
 export default {
     langName: "عربي",
-    form: "استمارة"
+    form: "استمارة",
+    submit: "إرسال",
+    language: "اللغة"
 }

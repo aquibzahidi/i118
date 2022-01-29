@@ -22,7 +22,7 @@ export default function IndexPage({ data }) {
   );
 }
 
-export const getServerSideProps = async ({ locale, locales }) => {
+export const getStaticProps = async ({ locale, locales }) => {
   const data = await fetch("https://hello-world-two-roan.vercel.app/api").then(
     (res) => res.json()
   );

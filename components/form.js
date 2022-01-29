@@ -42,7 +42,7 @@ const Form = ({ schema }) => {
                     onChange={formik.handleChange}
                   />
                   {formik.errors[key] ? (
-                    <FormHelperText error id={key}>``
+                    <FormHelperText error id={key}>
                       {formik.errors[key]}
                     </FormHelperText>
                   ) : null}
